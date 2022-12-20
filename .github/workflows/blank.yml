@@ -36,7 +36,7 @@ jobs:
     # Tenant Code displayed in the Profile section of ACCELQ
        tenantCode: "demo"
     # This ID should come from the CI job you saved in ACCELQ application
-       jobId: "386012"
+       jobId: "386020"
     # Run Params(optional) should be JSON string form example: '{"username": "John Todd", "password": "bxW&=UVw"}'
       # runParam: # optional
     # Proxy Host (optional)
@@ -44,4 +44,4 @@ jobs:
     # Proxy Port (optional)
 #        proxyPort: # optional
     # Percentage ACCELQ test case failure (Optional), beyond which this Step in the Pipeline will be marked as a failure. If this is zero, even a single failed test will cause the Step to fail. If you never want to fail the Pipeline Step due to failing Automation tests, input -1. Input a valid integer between 0 and 100 or, -1.
-       stepFailureThreshold: "100"
+       stepFailureThreshold: "-1"
